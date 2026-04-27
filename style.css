@@ -34,5 +34,61 @@
 }
 
 .fontfour {
-  font-weight: 600;
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--color-2);
+  color: var(--color-5);
+  border: 1px solid red;
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul,
+ol {
+  padding: 0em 1.5em;
+}
+ul li::marker,
+ol li::marker,
+.brown {
+  color: var(--color-6);
+}
+
+main {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+}
+
+article {
+  background-color: var(--color-1);
+  width: 45em;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 2em;
+  gap: 1em;
+  margin-top: 4em;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.titlesection {
+  img {
+    width: 100%;
+    border-radius: 1em;
+  }
+}
+
+footer {
+  border: 1px solid red;
 }
