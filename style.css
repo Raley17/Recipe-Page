@@ -99,11 +99,13 @@ h2 {
 .titlesection {
   img {
     width: 100%;
+    height: 65%;
     border-radius: 1em;
     margin-bottom: 1em;
   }
 
   h1 {
+    font-size: 18px;
     margin-bottom: 0.5em;
     color: var(--color-5);
   }
