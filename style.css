@@ -86,10 +86,10 @@ article {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  padding: 3em;
+  padding: 2.5em;
   gap: 1em;
   border-radius: 1em;
-  margin: 2em 0em;
+  margin: 1em 0em;
 }
 
 h2 {
