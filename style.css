@@ -10,7 +10,7 @@
 }
 
 html {
-  font-size: 9px;
+  font-size: 10px;
 }
 
 * {
@@ -81,12 +81,12 @@ main {
 
 article {
   background-color: var(--color-1);
-  width: 45em;
+  width: 50em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  padding: 2em;
+  padding: 3em;
   gap: 1em;
   border-radius: 1em;
   margin: 2em 0em;
@@ -140,7 +140,6 @@ h2 {
   ul {
     li {
       padding: 0.25em 0em;
-      line-height: 18px;
     }
   }
 }
@@ -151,7 +150,6 @@ h2 {
   ol {
     li {
       padding: 0.25em 0em;
-      line-height: 18px;
     }
   }
 }
