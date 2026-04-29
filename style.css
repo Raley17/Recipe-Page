@@ -9,6 +9,10 @@
   --color-8: hsl(330, 100%, 98%);
 }
 
+html {
+  font-size: 9px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -37,58 +41,139 @@
   font-weight: 700;
 }
 
-body {
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--color-2);
-  color: var(--color-5);
-  border: 1px solid red;
-  font-size: 0.75em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 ul,
 ol {
   padding: 0em 1.5em;
 }
+
+ul li::marker {
+  font-size: 0.75em;
+  line-height: 0;
+}
+
 ul li::marker,
 ol li::marker,
 .brown {
   color: var(--color-6);
 }
 
+.bottomline {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--color-2);
+  color: var(--color-4);
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 main {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 95vh;
+  justify-content: center;
 }
 
 article {
   background-color: var(--color-1);
   width: 45em;
-  max-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
   padding: 2em;
   gap: 1em;
-  margin-top: 4em;
-  overflow: hidden;
   border-radius: 1em;
+  margin: 2em 0em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
 }
 
 .titlesection {
   img {
     width: 100%;
     border-radius: 1em;
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+.preparation {
+  background-color: var(--color-8);
+  padding: 2em;
+  border-radius: 1em;
+  p {
+    color: var(--color-7);
+    margin-bottom: 0.5em;
+    font-size: 1.25em;
+  }
+
+  ul li::marker {
+    color: var(--color-7);
+  }
+
+  ul {
+    li {
+      padding: 0.25em 0.5em;
+    }
+  }
+}
+
+.ingredients {
+  padding: 1em 0em;
+
+  ul {
+    li {
+      padding: 0.25em 0em;
+      line-height: 18px;
+    }
+  }
+}
+
+.instructions {
+  padding: 1em 0em;
+
+  ol {
+    li {
+      padding: 0.25em 0em;
+      line-height: 18px;
+    }
+  }
+}
+
+.contstable {
+  p {
+    margin-bottom: 0.5em;
+  }
+}
+
+table {
+  width: 100%;
+  tr {
+    td {
+      padding: 1em;
+    }
   }
 }
 
 footer {
-  border: 1px solid red;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: var(--color-4);
+  }
 }
